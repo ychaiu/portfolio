@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 import Sidebar from './containers/Sidebar.js';
 import MainContent from './containers/MainContent.js';
 import Container from 'react-bootstrap/Container';
@@ -8,14 +9,12 @@ import Row from 'react-bootstrap/Row';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Container>
+        <Container className="app-container">
           <Row>
-            <Col sm={4}><Sidebar /></Col>
+            <Col><Sidebar/></Col>
             <Col><MainContent /></Col>
           </Row>
         </Container>
-      </div>
     );
   }
 }
