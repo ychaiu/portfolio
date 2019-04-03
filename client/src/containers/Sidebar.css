@@ -1,0 +1,33 @@
+.profile-pic {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar-container{
+    text-align: center;
+    position: absolute;
+    height: 100vh;
+    width: 275px;
+    background-color: rgb(238, 132, 132);
+}
+
+.sidebar-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+}
+
+.sidebar-item {
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Asar', serif;
+}
+
+.blurb {
+    font-family: 'Tajawal', sans-serif;
+}
