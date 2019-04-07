@@ -15,11 +15,17 @@
     background-color: rgba(255, 255, 255, 40%);
     padding: 1rem;
     border-radius: 3px;
-    margin-right: 60%;
+    margin: 0 60% 0 0;
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
     .blurb {
         width:100%;
+        position: relative;
+        top: 0;
+        transform: perspective(1px) translateY(0%);
     }
 }

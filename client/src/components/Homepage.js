@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Image from 'react-bootstrap/Image';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import './Homepage.css';
 

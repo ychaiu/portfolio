@@ -9,7 +9,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Blog from './components/Blog';
-import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {

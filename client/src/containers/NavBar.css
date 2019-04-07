@@ -14,3 +14,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+@media (min-width: 768px){
+    .pr-md-5, .px-md-5 {
+        padding-right: 0 !important;
+    }
+}
+
+#responsive-navbar-nav {
+    text-align: center;
+}
