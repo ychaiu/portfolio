@@ -1,21 +1,36 @@
 import React, { Component } from 'react';
 import './App.css';
-import Sidebar from './containers/Sidebar.js';
-import MainContent from './containers/MainContent.js';
+import NavBar from './containers/NavBar.js';
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Homepage from './components/Homepage';
+import About from './components/About';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Blog from './components/Blog';
+import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-        <Container className="app-container">
+      <BrowserRouter>
+        <Container>
           <Row>
-            <Col><Sidebar/></Col>
-            <Col><MainContent /></Col>
+            <Col>
+              <NavBar />
+            </Col>
           </Row>
+            <Switch>
+              <Route exact path="/" component={Homepage} />
+              <Route path="/about" component={About}/>
+              <Route path="/projects" component={Projects}/>
+              <Route path="/resume" component={Resume}/>
+              <Route path="/blog" component={Blog}/>
+            </Switch>
         </Container>
-    );
+      </BrowserRouter>
+    )
   }
 }
 

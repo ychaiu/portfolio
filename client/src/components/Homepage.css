@@ -1,0 +1,25 @@
+.homepage-container{
+    padding: .1rem 1rem;
+}
+
+.jumbotron{
+    background-image: url("https://res.cloudinary.com/ychaiu/image/upload/v1554490659/portfolio_site/P1050418.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 !important;
+    height: calc(100vh - (100px + 2rem))
+}
+
+.blurb{
+    background-color: rgba(255, 255, 255, 40%);
+    padding: 1rem;
+    border-radius: 3px;
+    margin-right: 60%;
+}
+
+@media (max-width: 768px) {
+    .blurb {
+        width:100%;
+    }
+}

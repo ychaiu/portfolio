@@ -1,0 +1,16 @@
+.navbar{
+    padding: .1rem 1rem !important;
+}
+
+.navbar-box{
+    background-color: white !important;
+}
+
+.navbar-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    background: -webkit-linear-gradient(45deg, #0238fb, #ef8c3e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

@@ -1,6 +1,4 @@
-.app-container {
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: 'Asar', serif;
+html, body {
+    margin: 0;
+    padding: 0;
 }
