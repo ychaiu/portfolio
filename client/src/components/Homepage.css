@@ -39,9 +39,10 @@
 
 @media (min-width: 1000px) {
     .blurb{
-        margin-right: 65%;
+        margin-right: 62%;
         letter-spacing: 0.4rem;
         font-size: 1rem;
+        margin-left: 4%;
     }
 }
 
