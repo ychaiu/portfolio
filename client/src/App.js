@@ -10,6 +10,11 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Blog from './components/Blog';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faBriefcase, faGraduationCap);
 
 class App extends Component {
   render() {
