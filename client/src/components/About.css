@@ -1,3 +1,19 @@
-/* .timeline-container{
-    margin-top: 0px !important;
-} */
+@media only screen and (min-width: 1170px){
+    .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline--two-columns .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
+        right: 138%;
+    }
+}
+
+@media only screen and (min-width: 1170px){
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        left: 138%;
+    }
+}
+
+.vertical-timeline::before {
+    background: -webkit-linear-gradient(45deg, rgb(2, 56, 251), rgb(239, 140, 62) 80%);
+}
+
+.vertical-timeline-element-content {
+    background-color: #fbf8f8;
+}

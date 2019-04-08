@@ -8,10 +8,10 @@ class Homepage extends Component {
             <div className="homepage-container">  
                 <Jumbotron className="jumbotron">
                     <p className="blurb">
-                    Hello! I'm Yessenia, a fullstack engineer with a background in GIS and public health. 
-                    I love learning new things. Hire me!
-
-                    I enjoy tinkering with new tools. Hello! I'm Yessenia, a fullstack engineer with a background in GIS and public health. 
+                    <b id="greeting">HELLO I'M YESSENIA</b><br></br><br></br>
+                    FULLSTACK DEVELOPER<br></br>
+                    MAP MAKER<br></br>
+                    PLANT WHISPERER
                     </p>
                 </Jumbotron>
             </div>
