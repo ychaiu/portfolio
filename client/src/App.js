@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Homepage from './components/Homepage';
 import About from './components/About';
 import Projects from './components/Projects';
-import Resume from './components/Resume';
+import Contact from './components/Contact';
 import Blog from './components/Blog';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -30,8 +30,8 @@ class App extends Component {
               <Route exact path="/" component={Homepage} />
               <Route path="/about" component={About}/>
               <Route path="/projects" component={Projects}/>
-              <Route path="/resume" component={Resume}/>
               <Route path="/blog" component={Blog}/>
+              <Route path="/contact" component={Contact}/>
             </Switch>
         </Container>
       </BrowserRouter>

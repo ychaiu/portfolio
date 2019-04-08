@@ -20,8 +20,8 @@ class NavBar extends Component {
                     <Nav className="ml-auto pr-md-5">
                         <Nav.Link href="/about">ABOUT</Nav.Link>
                         <Nav.Link href="/projects">PROJECTS</Nav.Link>
-                        <Nav.Link href="/resume">RESUME</Nav.Link>
                         <Nav.Link href="/blog">BLOG</Nav.Link>
+                        <Nav.Link href="/contact">CONTACT</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
