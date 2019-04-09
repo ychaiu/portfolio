@@ -22,9 +22,16 @@ class Contact extends Component {
         }), );
     }
     
+    handleSubmit(evt) {
+
+    }
+
     render() {
         return (
             <div className='contact-form'>
+                <div id="contact-blurb">
+                Whether you have a cool idea, have feedback on my work, or simply want to connect, I'd love to hear from you.
+                </div>
                 <SingleInput 
                     name={'name'}
                     type={'text'}
@@ -50,7 +57,11 @@ class Contact extends Component {
                     placeholder={'Message'}
                     className={'form-message'}
                 />
-                <Button />
+                <Button 
+                    className={'contact-button'}
+                    onClick={this.handleSubmit}
+                    title={'SEND'}
+                />
             </div>
         )
     }

@@ -1,3 +1,7 @@
+.timeline-container {
+    font-family: 'Raleway', sans-serif;
+}
+
 .resume-download{
     margin-top: 2rem;
     background-color: #364ad9;
@@ -8,7 +12,13 @@
     background-color: #0023a0;
 }
 
-.vertical-timeline-element{    color: rgb(95, 94, 94) !important;
+.vertical-timeline-element{    
+    color: rgb(95, 94, 94) !important;
+}
+
+.vertical-timeline-element-title{
+    text-transform: uppercase;
+    color: #364ad9;
 }
 
 .vertical-timeline-element-content p{
